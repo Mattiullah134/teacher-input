@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #00233a;
+    --secondary-color: #002b50;
+    --button-bg-color: #002b50;
+    --button-bg-color-hover: #002342;
+}
+
+.teacher-input-form-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--button-bg-color);
+    color: white;
+    cursor: pointer;
+}
+
+
+.teacher-input-form-btn:hover {
+
+    background-color: var(--button-bg-color-hover);
+}
